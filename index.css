@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 100%;
+  border: 3px solid blue;
+}
+.container {
+  max-width: 1446px;
+  margin: 0 auto;
+  border: 3px solid aqua;
+  /* background-image: url(./img/Sotuvchi.png); */
+}
+
+/* ########################################## Header Start ############################################# */
+
+.header__first {
+  display: flex;
+  justify-content: space-between;
+  gap: 279px;
+  margin-top: 60px;
+}
+h1 {
+  font-size: 33px;
+  color: #ff6838;
+}
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 50px;
+  cursor: pointer;
+}
+.header__link {
+  font-size: 18px;
+  color: #363853;
+}
+.header__link:hover {
+  color: grey;
+}
+.active {
+  color: #cf390c;
+}
+button {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7a50;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
+}
+
+/* ============================================= Header End =============================================== */
+
+/* ############################################ Main Start ############################################### */
+
+.main__first {
+  display: flex;
+}
+.main__menu_text h1 {
+  margin-top: 220px;
+  margin-bottom: 23px;
+  font-size: 66px;
+}
+.main__menu_text p {
+  font-size: 20px;
+  color: #363853;
+  margin-bottom: 45px;
+}
+.main__menu_button button {
+  width: 163px;
+  height: 50px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.main__menu_button p {
+  font-size: 20px;
+  color: #363853;
+  margin-bottom: 30px;
+  border: 1px solid aqua;
+}
+.main__menu_end {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main__menu_imgs {
+  width: 689px;
+  height: 681px;
+  border: 1px solid aqua;
+}
+/* ========================================== Main End ==================================================== */
+
+/* ########################################## Category Start ############################################# */
+
+/* ========================================= Category End ================================================== */
